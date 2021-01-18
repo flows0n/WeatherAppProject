@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherAppProject</string>
+    <string name="favourites">Dodaj do ulubionych</string>
+    <string name="toFavouritesAdded">Dodano do ulubionych</string>
+    <string name="searchCity">Znajdź Miasto</string>
+    <string name="settings">Ustawienia</string>
+    <string name="about">O Aplikacji</string>
+</resources>

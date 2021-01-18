@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherAppProject</string>
+    <string name="favourites">Add to favourites</string>
+    <string name="toFavouritesAdded">Added to favorites</string>
+    <string name="searchCity">Search City</string>
+    <string name="settings">Settings</string>
+    <string name="about">About App</string>
+
+</resources>
