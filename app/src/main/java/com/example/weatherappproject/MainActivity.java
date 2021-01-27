@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
     public String set1;
     public String set2;
     public String set3;
-    public boolean connected = false;
     FusedLocationProviderClient fusedLocationProviderClient;
 
     ImageView imageWeather;
@@ -243,7 +242,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
     private void api_key(final String City) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
