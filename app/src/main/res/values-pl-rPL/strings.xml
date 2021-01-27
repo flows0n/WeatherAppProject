@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WeatherAppProject</string>
+    <string name="refresh">Odświerz</string>
+    <string name="location">Pobierz lokalizacje</string>
+
     <string name="favourites">Dodaj do ulubionych</string>
     <string name="toFavouritesAdded">Dodano do ulubionych</string>
-    <string name="searchCity">Znajdź Miasto</string>
+
+    <string name="toastRefresh">Odświeżono</string>
+
+    <string name="toastLocation">Lokalizacja ustawiona</string>
+
+    <string name="findButton">Znajdź</string>
+
+    <string name="searchCity">Znajdź miasto</string>
     <string name="settings">Ustawienia</string>
     <string name="about">O Aplikacji</string>
+
+    <string name="searchForACity">Wyszukaj miasto</string>
+
+    <string name="temperature">Temperatura: </string>
+    <string name="pressure">Ciśnienie: </string>
+    <string name="huminity">Wilgotność powietrza: </string>
+    <string name="windSpeed" >Prędkość wiatru: </string>
+
+    <string name="tempUnit">Jednostka temperatury</string>
+    <string name="pressUnit">Jednostka ciśnienia powietrza</string>
+    <string name="windUnit">Jednostka prędkości wiatru</string>
+
+    <string name="networkUnable">Połączenie sieciowe jest niedostępne</string>
+    <string name="createdBy">Stworzona przez Bartosz Maliszewski</string>
+
 </resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory android:title="Measurement units">
+    <ListPreference
+        android:defaultValue="@string/pref_temp_unit_1_val"
+        android:entries="@array/pref_temp_unit_labels"
+        android:entryValues="@array/pref_temp_unit_val"
+        android:key="@string/PREF_TEMP_UNIT_KEY"
+        android:title="@string/tempUnit"
+        />
+    <ListPreference
+        android:defaultValue="@string/pref_press_unit_1_val"
+        android:entries="@array/pref_press_unit_labels"
+        android:entryValues="@array/pref_press_unit_val"
+        android:key="@string/PREF_PRESS_UNIT_KEY"
+        android:title="@string/pressUnit" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_wind_unit_1_val"
+            android:entries="@array/pref_wind_unit_labels"
+            android:entryValues="@array/pref_wind_unit_val"
+            android:key="@string/PREF_WIND_UNIT_KEY"
+            android:title="@string/windUnit" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

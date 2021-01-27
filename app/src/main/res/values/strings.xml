@@ -1,9 +1,58 @@
 <resources>
-    <string name="app_name">WeatherAppProject</string>
+    <string name="app_name" translatable="false">WeatherApp</string>
+    <string name="refresh">Refresh</string>
+    <string name="location">Get location</string>
+
     <string name="favourites">Add to favourites</string>
     <string name="toFavouritesAdded">Added to favorites</string>
+
+
     <string name="searchCity">Search City</string>
     <string name="settings">Settings</string>
     <string name="about">About App</string>
+    <string name="searchForACity">Find a city</string>
+
+    <string name="temperature">Temperature: </string>
+    <string name="pressure">Pressure: </string>
+    <string name="huminity">Huminity: </string>
+    <string name="windSpeed">Wind speed: </string>
+    <string name="findButton">Find</string>
+    <string name="toastLocation">"Location set"</string>
+
+    <string name="networkUnable">Network connection is not available</string>
+
+    <string name="toastRefresh">Refreshed</string>
+
+    <string name="tempUnit">Temperature unit</string>
+    <string name="pressUnit">Pressure unit</string>
+    <string name="windUnit">Wind speed unit</string>
+
+    <string name="PREF_TEMP_UNIT_KEY" translatable="false">temp</string>
+
+    <string name="pref_temp_unit_1_label" translatable="false">°C</string>
+    <string name="pref_temp_unit_2_label" translatable="false">°F</string>
+
+    <string name="pref_temp_unit_1_val" translatable="false">1</string>
+    <string name="pref_temp_unit_2_val" translatable="false">2</string>
+
+
+    <string name="PREF_PRESS_UNIT_KEY" translatable="false">press</string>
+
+    <string name="pref_press_unit_1_label" translatable="false">hPA</string>
+    <string name="pref_press_unit_2_label" translatable="false">mbar</string>
+
+    <string name="pref_press_unit_1_val" translatable="false">1</string>
+    <string name="pref_press_unit_2_val" translatable="false">2</string>
+
+    <string name="PREF_WIND_UNIT_KEY" translatable="false">wind</string>
+
+    <string name="pref_wind_unit_1_label" translatable="false">m/s</string>
+    <string name="pref_wind_unit_2_label" translatable="false">km/h</string>
+    <string name="pref_wind_unit_3_label" translatable="false">mph</string>
+
+    <string name="pref_wind_unit_1_val" translatable="false">1</string>
+    <string name="pref_wind_unit_2_val" translatable="false">2</string>
+    <string name="pref_wind_unit_3_val" translatable="false">3</string>
+    <string name="createdBy">Created by Bartosz Maliszewski</string>
 
 </resources>

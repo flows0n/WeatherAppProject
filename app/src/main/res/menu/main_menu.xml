@@ -4,17 +4,18 @@
 
     <item android:id="@+id/refresh"
         android:icon="@drawable/ic_refresh"
-        android:title="@string/favourites"
-        app:showAsAction="ifRoom"/>
+        android:title="@string/refresh"
+        app:showAsAction="always"/>
 
-    <item android:id="@+id/favourite"
-        android:icon="@drawable/ic_favourite"
-        android:title="@string/favourites"
-        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/local"
+        android:icon="@drawable/ic_location"
+        android:title="@string/location"
+        app:showAsAction="always"/>
 
     <item android:id="@+id/searchCity"
+        android:icon="@drawable/ic_search"
         android:title="@string/searchCity"
-        app:showAsAction="never"/>
+        app:showAsAction="always"/>
 
     <item android:id="@+id/settings"
         android:title="@string/settings"

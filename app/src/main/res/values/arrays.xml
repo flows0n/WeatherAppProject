@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label ordering must match values -->
+    <array name="pref_temp_unit_labels">
+        <item>@string/pref_temp_unit_1_label</item>
+        <item>@string/pref_temp_unit_2_label</item>
+    </array>
+
+    <array name="pref_temp_unit_val">
+        <item>@string/pref_temp_unit_1_val</item>
+        <item>@string/pref_temp_unit_2_val</item>
+    </array>
+
+    <array name="pref_press_unit_labels">
+        <item>@string/pref_press_unit_1_label</item>
+        <item>@string/pref_press_unit_2_label</item>
+    </array>
+
+    <array name="pref_press_unit_val">
+        <item>@string/pref_press_unit_1_val</item>
+        <item>@string/pref_press_unit_2_val</item>
+    </array>
+
+    <array name="pref_wind_unit_labels">
+        <item>@string/pref_wind_unit_1_label</item>
+        <item>@string/pref_wind_unit_2_label</item>
+        <item>@string/pref_wind_unit_3_label</item>
+    </array>
+
+    <array name="pref_wind_unit_val">
+        <item>@string/pref_wind_unit_1_val</item>
+        <item>@string/pref_wind_unit_2_val</item>
+        <item>@string/pref_wind_unit_3_val</item>
+    </array>
+
+
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>
