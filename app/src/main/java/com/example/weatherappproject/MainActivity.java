@@ -169,6 +169,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (!haveNetwork()) {
                     Toast.makeText(MainActivity.this, getText(R.string.networkUnable), Toast.LENGTH_SHORT).show();
                 }
+                Toast.makeText(MainActivity.this, getText(R.string.toastRefresh), Toast.LENGTH_SHORT).show();
                 return true;
             }
             case R.id.local: {
